@@ -1,6 +1,6 @@
 # Portfolio Website
 
-**Live Demo:** [yourusername.github.io/portfolio](https://yourusername.github.io/portfolio)
+**Live Demo:** [anushavv3.github.io/portfolio](https://anushavv3.github.io/portfolio)
 
 A responsive portfolio built with HTML & CSS.
 
@@ -20,5 +20,5 @@ A responsive portfolio built with HTML & CSS.
 2. Open `index.html` in browser
 
 ## Author
-Your Name - [GitHub](https://github.com/yourusername)
+anusha - [GitHub](https://github.com/anushavv3)
  
