@@ -1,6 +1,6 @@
 # MY PORTFOLIO
 
-**Live Demo:** [anushavv3.github.io/portfolio](https://anushavv3.github.io/portfolio)
+
 
 A responsive portfolio built with HTML & CSS.
 
