@@ -1,4 +1,4 @@
-# PORTFOLIO
+# MY PORTFOLIO
 
 **Live Demo:** [anushavv3.github.io/portfolio](https://anushavv3.github.io/portfolio)
 
@@ -18,6 +18,7 @@ A responsive portfolio built with HTML & CSS.
 ## Setup
 1. `git clone https://github.com/yourusername/portfolio`
 2. Open `index.html` in browser
+3. 
 
 ## Author
 anusha - [GitHub](https://github.com/anushavv3)
