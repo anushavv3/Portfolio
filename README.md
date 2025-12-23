@@ -16,7 +16,7 @@ A responsive portfolio built with HTML & CSS.
 - GitHub Pages
 
 ## Setup
-1. `git clone https://github.com/yourusername/portfolio`
+1. `git clone https://github.com/anushavv3/portfolio`
 2. Open `index.html` in browser
 3. 
 
