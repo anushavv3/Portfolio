@@ -7,7 +7,6 @@ A responsive portfolio built with HTML & CSS.
 ## Features
 - Mobile-friendly design
 - Clean, modern interface
-- Fast loading
 - Easy to customize
 
 ## Tech Used
