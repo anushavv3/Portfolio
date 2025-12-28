@@ -1,7 +1,4 @@
 # MY PORTFOLIO
-
-
-
 A responsive portfolio built with HTML & CSS.
 
 ## Features
