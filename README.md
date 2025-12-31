@@ -12,6 +12,7 @@ A responsive portfolio built with HTML & CSS.
 - CSS3 (Flexbox/Grid)
 - GitHub Pages
 - react
+- js
 
 ## Setup
 1. `git clone https://github.com/anushavv3/portfolio`
