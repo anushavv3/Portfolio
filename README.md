@@ -7,7 +7,7 @@ A responsive portfolio built with HTML,CSS & React.
 - Fast loading
 - Easy to customize
 
-## Tech Used
+## Techs Used
 - HTML5
 - CSS3 (Flexbox/Grid)
 - GitHub Pages
