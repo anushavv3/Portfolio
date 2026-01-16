@@ -3,7 +3,7 @@ A responsive Portfolio built with HTML,CSS & React.
 
 ## Features
 - Mobile-friendly design
-- Clean, modern interface
+- Clean, Modern interface
 - Fast loading
 - Easy to customize
 
