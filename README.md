@@ -1,5 +1,5 @@
 # MY PORTFOLIO 
-A responsive Portfolio built with HTML,CSS and React.
+A responsive Portfolio built with HTML,CSS and React
 
 ## Features
 - Mobile-friendly design
