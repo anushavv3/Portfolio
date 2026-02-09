@@ -15,7 +15,7 @@ A responsive Portfolio built with HTML,CSS and React.
 - Javascript
 
 ## Setup
-1. `git clone https://github.com/anushavv3/Portfolio
+1. `git clone https://github.com/anushavv3/Portfolio`
 
 ## Author
 anusha - [GitHub](https://github.com/anushavv3)
