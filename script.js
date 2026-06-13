@@ -1,0 +1,2 @@
+<p>Hi, I'm Anusha V V, an IT graduate and aspiring Full stack Developer. I am currently learning modern fullsatck development technologies and building hands-on projects to strengthen my skills in programming, web development, and problem-solving.</p>
+                <p>I'm a passionate web developer from Kerala, India, 
