@@ -19,5 +19,4 @@ A Responsive Portfolio built with HTML,Tailwind CSS and React.
 1. `git clone https://github.com/anushavv3/Portfolio
 
 ## Author
-anusha - [GitHub](https://github.com/anushavv3)
- 
+anusha - []
