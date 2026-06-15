@@ -10,33 +10,36 @@
     </head>
     <body>
         <header>
-            <a href="#home">Anushavv </a>
+            <a class="logo" href="#hero">Anushavv </a>
             <nav>
-                    <a href="#home">Home</a>
+                    <a href="#hero">Home</a>
                     <a href="#about">About</a>
                     <a href="#skills">Skills</a>
                     <a href="#projects">Projects</a>
-                    <a href="#getintouch">Contact</a>   
+                    <a href="#contact">Contact</a>   
             </nav>
         </header>
         <main>
-            <section id="home">
-                
-                    <h1 >Hi,I'm Anusha V V</h1>
-                    <p> Aspiring Full stack Developer</p>
-                    <button class="hire">Hire Me</button>
-                    <a href="resume.pdf" download>Download CV</a>
-                
-                
+            <section id="hero">
+                    <article class="hero-text">
 
+                    <h1>Hi,I'm <strong class="VV">Anusha V V </strong></h1>
+                    <p class="hero-p"> Full Stack Developer focused on modern web technologies.</p>
+
+                        <article class="buttons">
+                            <button class="hire">Hire Me</button>
+                            <a class="resume" href="resume.pdf" download>Download CV</a>
+                        </article>
+                    </article>
+                <img class="image"src="anusha_photo.jpg" alt="Portrait of Anusha V V">
+                
             </section>
 
             <section id="about">
-                <h2 >About</h2>
+                <h2  class="about-me">About Me</h2>
                 
-                <img src="anusha_photo.jpg" alt="anusha's photo">
     
-                <p>I'm a passionate web developer from Kerala, India, 
+                <p class="descr">I'm a passionate web developer from Kerala, India, 
                     with a B.Tech in Information Technology.
                     With hands-on experience from my internship at Elevate Labs 
                     and a strong foundation in HTML, CSS, JavaScript and React, 
@@ -47,55 +50,85 @@
                     a team that builds great products.</p>
                
             </section >
-            <section>
+            
+            <section id="skills">
+                <h2 class="skill" >Skills</h2>
+                <h3 class="lang">Languages</h3> 
+                
+                    <ul class="languages">
+                         <li class="l1">Python</li> 
+                         <li class="l2">Javascript</li> 
+                         <li class="l3">C</li> 
+                    </ul>
+                <h3 class="front-end">Frontend</h3>
+                 <ul class="frontend">    
+                         <li class="l4">Html</li> 
+                         <li class="l5">CSS</li> 
+                 </ul>          
+                <h3 class="tool">Tools</h3>    
+                 <ul class="tools">     
+                         <li class="l7">Git</li> 
+                         <li class="l8">github</li> 
+                         <li class="l9">Vscode</li> 
+                         <li class="l10">vercel</li> 
+                         <li class="l11">pycharm</li> 
+                         <li class="l12">canva</li> 
+                 </ul>  
+                
+                      
+            </section>
+            <section id ="experience">
+                <h2>Experience</h2>
+                <h3>Web Developer Intern</h3>
+                <h4>ElevateLabs</h4>
+                <h5>Jan 2026-mar 2026</h5>
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    
+                </ul>
+
+            </section>
+             <section id="projects">
+              
+                <h2>Projects</h2>
+                <article class="project1">
+                
+                <figure >
+                <a href="#livecodeeditor"><img src="livecodeeditor.jpg" alt="Screenshot of Live Code Editor project">Livecode editor</a>
+                 <figcaption>
+                    Livecode Editor
+                </figcaption>
+                </figure>
+               
+                <p>A web-based code editor that allows users to write and preview HTML, CSS and JavaScript in real time.</p>
+                <p>Tech Stack:html,css,javascript,react,monaco editor</p>
+                <p>Github Link</p>
+                <p>live demo:</p>
+                </article>
+
+                <article class="project2">
+                <figure>
+                <a href="#BookFinder"><img src="bookfinder.jpg" alt="BookFinder project homepage">bookfinder</a>
+                <figcaption>BookFinder</figcaption>
+                </figure>
+                <p>A web application that allows users to search books using a public API and view details such as title, author, and cover image.</p>
+                <p>Tech Stack:html,css,javascript,api</p>
+                <p>Github link</p>
+                <p>live demo:</p>
+              </article>  
+             </section>
+
+             <section id="education">
                 <h2>Education</h2>
                 <h3>B.Tech Information Technology</h3>
                 <p>Graduated: 2025</p>
                 <p>CGPA: 7.55</p>
 
             </section>
-            <section id="skills">
-                <h2 >Skills</h2>
-                <h3>Languages</h3> 
-                
-                    <ul>
-                         <li>Python</li> 
-                         <li>Javascript</li> 
-                         <li>C</li> 
-                         <li>Html</li> 
-                         <li>CSS</li>  
-                         <li>Git</li> 
-                         <li>github</li> 
-                         <li>Vscode</li> 
-                         <li>vercel</li> 
-                         <li>pycharm</li> 
-                         <li>canva</li> 
-                    </ul>  
-                   
-                      
-            </section>
-             <section id="dprojects">
-                <h2>Projects</h2>
-                
-                
-                <a href="#livecodeeditor"><img src="livecodeeditor.jpg" alt="livecodeditor image"></a>
-                <h3>
-                    Livecode Editor
-                </h3>
-                <p>A web-based code editor that allows users to write and preview HTML, CSS and JavaScript in real time.</p>
-                <p>Tech Stack:html,css,javascript,react,monaco editor</p>
-                <p>Github Link</p>
-                <p>live demo:</p>
-
-                <h3>BookFinder</h3>
-                <a href="#BookFinder"><img src="BookFinder.jpg" alt="BookFinder project homepage"></a>
-                <p>A web application that allows users to search books using a public API and view details such as title, author, and cover image.</p>
-                <p>Tech Stack:html,css,javascript,api</p>
-                <p>Github link</p>
-                <p>live demo:</p>
-                
-             </section>
-             <section id="#getintouch">
+            
+             <section id="contact">
                 <h2>Contact</h2>
                 <form action="/submit" method="Post">
                     <label for="name">Name:</label>
@@ -107,15 +140,18 @@
                     <button type="submit">submit</button><br><br>
                     
                 </form>
+                <a href="mailto:anusha38vv@gmail.com">Email</a>
+                <a href="tel:9000000000">Phone</a>
+
              </section>
 
 
         </main>
-        <footer id="contact">
+        <footer id="foot">
             <section class="foot">
             <a href="mailto:anusha38vv@gmail.com">Email</a>
-           <a href="#githublink">github</a>
-            <a href="#linkedinlink">LinkedIn</a>
+           <a href="githublink">github</a>
+            <a href="linkedinlink">LinkedIn</a>
             </section>
         </footer>
         
