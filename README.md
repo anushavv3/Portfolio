@@ -1,5 +1,5 @@
 ## MY PORTFOLIO 
-A Responsive Portfolio built with HTML,Tailwind CSS and React.
+A Responsive Portfolio built with HTML,CSS and Javascript.
 
 ## Features
 - Mobile-friendly design
@@ -10,8 +10,7 @@ A Responsive Portfolio built with HTML,Tailwind CSS and React.
 ## Tech Used
 - HTML5
 - CSS3 (Flexbox/Grid)
-- GitHub Pages
-- react
+- vercel
 - Javascript
 
 
@@ -19,4 +18,4 @@ A Responsive Portfolio built with HTML,Tailwind CSS and React.
 1. `git clone https://github.com/anushavv3/Portfolio
 
 ## Author
-anusha - []
+anusha - [Anusha v v]

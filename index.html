@@ -3,35 +3,231 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anusha-portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Anusha V V | Frontend /React Developer</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <script src="script.js" defer ></script>
 </head>
 <body>
-    <nav>
-        <div class="wrap">
-         <div class="logo">ANUSHA </div> 
-         <div class="nav-links"> 
-            <a href="#home">Home</a>
-            <a href="#about">About Me</a>
-            <a href="#skills">Skills</a>
-            <a href="#education">Education</a>
-            <a href="#experience">Experience</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>  
-        </div>
-       </div> 
-    </nav>
-    <section class="hero">
-        <div class="hero-grid"></div>
-            <div class="hero-content">
-                <div class="hi">Hi,I'm</div>
-                <h1>ANUSHA V V <span class="role">Fullstack Developer — building clean, fast web apps</span></h1>
-                <p class="sub">I design and build complete web applications — from REST APIs to responsive frontends — with a focus on clean code and real-world usability.</p>
-                <div class="btn-row">
-                    <a href="#contact" class="btn-primary">Contact me</a>
-                    <a href="#" class="btn-outline">Download resume</a>
-               </div>    
+        <header>
+            <nav>
+                <div class="wrap">
+                    <a class="logo" href="#home">ANUSHA</a>
+                    <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+
+                    <div class="nav-links">
+                        <a href="#home">Home</a>
+                        <a href="#about">About</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#education">Education</a>
+                        <a href="#projects">Projects</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+            </nav>
+    </header>
+   <main>
+    <section id="home" class="hero">
+        
+            <div class="hero-grid"></div>
+            <div class="wrap hero-content">
+                    <div class="hi">Hi,I'm</div>
+                        <h1>ANUSHA V V <span class="role">Frontend/React Developer — building clean, fast web apps</span></h1>
+                        <p>Passionate about building responsive web applications with modern technologies.</p>
+                        <div class="btn-row">
+                            <a class="btn-primary" href="#contact">Contact me</a>
+                            <a class="btn-outline" href="assets/anusha-resume.pdf" download>Download resume</a>
+                        </div>
             </div>
     </section>
+
+    <section id="about" class="about">
+        <div class="wrap">
+            <div class="eyebrow">ABOUT</div>
+            <h2 class="section-title">A bit about me</h2>
+            <div class="about-grid">
+                <div class="about-photo">
+                    <img src="images/profile.jpeg" alt="Anusha V V — Fullstack Developer">
+                </div>
+                <div class="about-text">
+                    <p>I'm a web developer from Kerala, India with a B.Tech in Information Technology.I work with HTML, CSS, JavaScript and React to build clean and functional web applications. I have been on  a self learning journey in full stack development building projects and growing every day.Currently seeking a junior developer role where I can contribute to real products and grow with a great team.</p>
+                        <div class="about-tags">
+                            <span class="about-tag">Problem-solving</span>
+                            <span class="about-tag">Fast learner</span>
+                            <span class="about-tag">Team player</span>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <div class="wrap">
+            <div class="eyebrow">SKILLS</div>
+            <h2 class="section-title">Technologies I work with</h2> 
+            <div class="skills-group">
+                <h3>Frontend</h3>
+                <div class="skills-board">
+                    <div class="skill-chip"><i class="devicon-html5-plain colored"></i>HTML5</div>
+                    <div class="skill-chip"><i class="devicon-css3-plain colored"></i>CSS3</div>
+                    <div class="skill-chip"><i class="devicon-react-original colored"></i>React</div>    
+                </div>
+            </div>  
+
+            <div class="skills-group">
+                <h3>Languages</h3>
+                <div class="skills-board">
+                    <div class="skill-chip"><i class="devicon-javascript-plain colored"></i>Javascript</div>
+                    <div class="skill-chip"><i class="devicon-python-plain colored"></i>Python</div>
+                </div>
+            </div>
+            
+            <div class="skills-group">
+                <h3>Tools & Platforms</h3>
+                <div class="skills-board">
+                    <div class="skill-chip"><i class="devicon-git-plain colored"></i>Git</div>
+                    <div class="skill-chip"><i class="devicon-github-original colored"></i>Github</div>
+                    <div class="skill-chip"><i class="devicon-vscode-plain colored"></i>VsCode</div>
+                    <div class="skill-chip"><i class="devicon-vercel-original"></i>Vercel</div>
+                    <div class="skill-chip"><i class="devicon-pycharm-plain colored"></i>pycharm</div>
+                </div>    
+            </div> 
+
+                    
+        </div>
+
+    </section>
+    
+    <section  class="timeline-section" id="education">
+        <div class="wrap">
+            <div class="eyebrow">EDUCATION</div>
+            <h2 class="section-title">Academic background</h2>
+            <div class="timeline">
+                <div class="t-item">
+                    <div class="t-dot"></div>
+                    <div class="t-date">2022-2025</div>
+                    <div class="t-title">B.Tech in Information Technology</div>
+                    <div class="t-org">College of Engineering Thalassery, Kerala</div>
+                    <div class="t-desc">Studied core IT fundamentals — programming, database management, networking and software engineering principles.</div>
+                </div>
+
+                <div class="t-item">
+                    <div class="t-dot"></div>
+                    <div class="t-date">2019-2022</div>
+                    <div class="t-title">Diploma in Chemical Engineering</div>
+                    <div class="t-org">MGM Silver Jubilee Polytechnic College, Kerala</div>
+                    <div class="t-desc">Gained solid understanding of core engineering principles.Developed analytical thinking and problem solving abilities.</div>
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="projects" id="projects">
+        <div class="wrap">
+            <div class="eyebrow">PROJECTS</div>
+            <h2 class="section-title">Things I've built</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/livecode.png" alt="Screenshot of Livecode Editor showing split-pane code editor">
+                    </div>
+                    <div class="project-body">
+                        <h3>Livecode Editor</h3>
+                        <p>A web-based code editor that allows users to write and preview HTML, CSS and JavaScript in real time.</p>
+                        <div class="project-stack">
+                            <span class="stack-pill">Html</span>
+                            <span class="stack-pill">CSS</span>
+                            <span class="stack-pill">Javascript</span>
+                            <span class="stack-pill">React</span>
+                            <span class="stack-pill">monaco editor</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://anushavv3.github.io/live-code-editor/" target="_blank">Demo</a>
+                            <a href="https://github.com/anushavv3/live-code-editor" target="_blank"><i class="devicon-github-original colored"></i>Github</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/bookfinder.png" alt="Screenshot of BookFinder">
+                    </div>
+                    <div class="project-body">
+                        <h3>BookFinder</h3>
+                        <p>A web application that allows users to search books using a public API and view details such as title, author, and cover image.</p>
+                        <div class="project-stack">
+                            <span class="stack-pill">Html</span>
+                            <span class="stack-pill">CSS</span>
+                            <span class="stack-pill">Javascript</span>
+                            <span class="stack-pill">Api</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#">Demo</a>
+                            <a href="https://github.com/anushavv3/book-api"><i class="devicon-github-original colored"></i>Github</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="wrap">
+            <div class="eyebrow">CONTACT</div>
+            <h2 class="section-title">Let's work together</h2>
+            <div class="contact-card">
+                <div class="contact-info">
+                    <h3>Get in touch</h3>
+                    <p>Have a role or project? My inbox is open</p>
+                    <div class="contact-row"> <span class="contact-icon">@</span>anushavv3@gmail.com</div>
+                    <div class="contact-row"><span class="contact-icon">#</span>9544060198</div>
+                    <div class="contact-row"><span class="contact-icon">@</span> Kerala, India</div>
+                </div>
+
+                <form >
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id ="name"  name="name" placeholder="Your name" required >
+                </div>
+
+                <div class="form-group">    
+                     <label for="email">Email</label>
+                    <input type="email" id="email" name="email"  placeholder="you@example.com" required >
+                </div>
+
+                <div class="form-group">   
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message"  placeholder="tell me about the opportunity or project"></textarea>
+                </div>    
+                    <button type="submit" class="submit-btn">Send message</button>
+                
+
+                </form>
+            </div>
+
+        </div>
+
+    </section>
+ </main>
+
+    <footer>
+        <div class="wrap footer-inner">
+            <div class="footer-note">&copy; <span id="year"></span> Anusha V V. All rights Reserved.</div>
+            <div class="footer-social">
+                <a href="https://github.com/anushavv3" target="_blank" aria-label="Github"><i class="devicon-github-original"></i></a>
+                <a href="https://www.linkedin.com/in/anusha-v-v-93a752252" target="_blank" aria-label="LinkedIn"><i class="devicon-linkedin-plain colored"></i></a>
+                <a href="mailto:anushavv3@gmail.com" aria-label="Email">✉</a>
+            </div>
+        </div>
+    </footer>
+   
 </body>
 </html>
