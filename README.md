@@ -10,8 +10,8 @@ A Responsive Portfolio built with HTML,CSS and Javascript.
 ## Tech Used
 - HTML5
 - CSS3 (Flexbox/Grid)
-- vercel
-- Javascript
+-Javascript
+- Vercel
 
 
 ## Setup
